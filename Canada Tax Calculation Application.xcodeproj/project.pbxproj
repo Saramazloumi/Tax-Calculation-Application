@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30458D0522AD53340016BD46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30458D0422AD53340016BD46 /* AppDelegate.swift */; };
+		30458D0722AD53340016BD46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30458D0622AD53340016BD46 /* ViewController.swift */; };
+		30458D0A22AD53340016BD46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30458D0822AD53340016BD46 /* Main.storyboard */; };
+		30458D0C22AD53350016BD46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30458D0B22AD53350016BD46 /* Assets.xcassets */; };
+		30458D0F22AD53350016BD46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30458D0D22AD53350016BD46 /* LaunchScreen.storyboard */; };
+		30458D1A22AD53350016BD46 /* Canada_Tax_Calculation_ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30458D1922AD53350016BD46 /* Canada_Tax_Calculation_ApplicationTests.swift */; };
+		30458D2522AD53350016BD46 /* Canada_Tax_Calculation_ApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30458D2422AD53350016BD46 /* Canada_Tax_Calculation_ApplicationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30458D1622AD53350016BD46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30458CF922AD53340016BD46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30458D0022AD53340016BD46;
+			remoteInfo = "Canada Tax Calculation Application";
+		};
+		30458D2122AD53350016BD46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30458CF922AD53340016BD46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30458D0022AD53340016BD46;
+			remoteInfo = "Canada Tax Calculation Application";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30458D0122AD53340016BD46 /* Canada Tax Calculation Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Canada Tax Calculation Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30458D0422AD53340016BD46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30458D0622AD53340016BD46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30458D0922AD53340016BD46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30458D0B22AD53350016BD46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30458D0E22AD53350016BD46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30458D1022AD53350016BD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30458D1522AD53350016BD46 /* Canada Tax Calculation ApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Canada Tax Calculation ApplicationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30458D1922AD53350016BD46 /* Canada_Tax_Calculation_ApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canada_Tax_Calculation_ApplicationTests.swift; sourceTree = "<group>"; };
+		30458D1B22AD53350016BD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30458D2022AD53350016BD46 /* Canada Tax Calculation ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Canada Tax Calculation ApplicationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30458D2422AD53350016BD46 /* Canada_Tax_Calculation_ApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canada_Tax_Calculation_ApplicationUITests.swift; sourceTree = "<group>"; };
+		30458D2622AD53350016BD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30458CFE22AD53340016BD46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30458D1222AD53350016BD46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30458D1D22AD53350016BD46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30458CF822AD53340016BD46 = {
+			isa = PBXGroup;
+			children = (
+				30458D0322AD53340016BD46 /* Canada Tax Calculation Application */,
+				30458D1822AD53350016BD46 /* Canada Tax Calculation ApplicationTests */,
+				30458D2322AD53350016BD46 /* Canada Tax Calculation ApplicationUITests */,
+				30458D0222AD53340016BD46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30458D0222AD53340016BD46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30458D0122AD53340016BD46 /* Canada Tax Calculation Application.app */,
+				30458D1522AD53350016BD46 /* Canada Tax Calculation ApplicationTests.xctest */,
+				30458D2022AD53350016BD46 /* Canada Tax Calculation ApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30458D0322AD53340016BD46 /* Canada Tax Calculation Application */ = {
+			isa = PBXGroup;
+			children = (
+				30458D0422AD53340016BD46 /* AppDelegate.swift */,
+				30458D0622AD53340016BD46 /* ViewController.swift */,
+				30458D0822AD53340016BD46 /* Main.storyboard */,
+				30458D0B22AD53350016BD46 /* Assets.xcassets */,
+				30458D0D22AD53350016BD46 /* LaunchScreen.storyboard */,
+				30458D1022AD53350016BD46 /* Info.plist */,
+			);
+			path = "Canada Tax Calculation Application";
+			sourceTree = "<group>";
+		};
+		30458D1822AD53350016BD46 /* Canada Tax Calculation ApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				30458D1922AD53350016BD46 /* Canada_Tax_Calculation_ApplicationTests.swift */,
+				30458D1B22AD53350016BD46 /* Info.plist */,
+			);
+			path = "Canada Tax Calculation ApplicationTests";
+			sourceTree = "<group>";
+		};
+		30458D2322AD53350016BD46 /* Canada Tax Calculation ApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30458D2422AD53350016BD46 /* Canada_Tax_Calculation_ApplicationUITests.swift */,
+				30458D2622AD53350016BD46 /* Info.plist */,
+			);
+			path = "Canada Tax Calculation ApplicationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30458D0022AD53340016BD46 /* Canada Tax Calculation Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30458D2922AD53350016BD46 /* Build configuration list for PBXNativeTarget "Canada Tax Calculation Application" */;
+			buildPhases = (
+				30458CFD22AD53340016BD46 /* Sources */,
+				30458CFE22AD53340016BD46 /* Frameworks */,
+				30458CFF22AD53340016BD46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Canada Tax Calculation Application";
+			productName = "Canada Tax Calculation Application";
+			productReference = 30458D0122AD53340016BD46 /* Canada Tax Calculation Application.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30458D1422AD53350016BD46 /* Canada Tax Calculation ApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30458D2C22AD53350016BD46 /* Build configuration list for PBXNativeTarget "Canada Tax Calculation ApplicationTests" */;
+			buildPhases = (
+				30458D1122AD53350016BD46 /* Sources */,
+				30458D1222AD53350016BD46 /* Frameworks */,
+				30458D1322AD53350016BD46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30458D1722AD53350016BD46 /* PBXTargetDependency */,
+			);
+			name = "Canada Tax Calculation ApplicationTests";
+			productName = "Canada Tax Calculation ApplicationTests";
+			productReference = 30458D1522AD53350016BD46 /* Canada Tax Calculation ApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30458D1F22AD53350016BD46 /* Canada Tax Calculation ApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30458D2F22AD53350016BD46 /* Build configuration list for PBXNativeTarget "Canada Tax Calculation ApplicationUITests" */;
+			buildPhases = (
+				30458D1C22AD53350016BD46 /* Sources */,
+				30458D1D22AD53350016BD46 /* Frameworks */,
+				30458D1E22AD53350016BD46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30458D2222AD53350016BD46 /* PBXTargetDependency */,
+			);
+			name = "Canada Tax Calculation ApplicationUITests";
+			productName = "Canada Tax Calculation ApplicationUITests";
+			productReference = 30458D2022AD53350016BD46 /* Canada Tax Calculation ApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30458CF922AD53340016BD46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Sara Mazloumi";
+				TargetAttributes = {
+					30458D0022AD53340016BD46 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					30458D1422AD53350016BD46 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 30458D0022AD53340016BD46;
+					};
+					30458D1F22AD53350016BD46 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 30458D0022AD53340016BD46;
+					};
+				};
+			};
+			buildConfigurationList = 30458CFC22AD53340016BD46 /* Build configuration list for PBXProject "Canada Tax Calculation Application" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30458CF822AD53340016BD46;
+			productRefGroup = 30458D0222AD53340016BD46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30458D0022AD53340016BD46 /* Canada Tax Calculation Application */,
+				30458D1422AD53350016BD46 /* Canada Tax Calculation ApplicationTests */,
+				30458D1F22AD53350016BD46 /* Canada Tax Calculation ApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30458CFF22AD53340016BD46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30458D0F22AD53350016BD46 /* LaunchScreen.storyboard in Resources */,
+				30458D0C22AD53350016BD46 /* Assets.xcassets in Resources */,
+				30458D0A22AD53340016BD46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30458D1322AD53350016BD46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30458D1E22AD53350016BD46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30458CFD22AD53340016BD46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30458D0722AD53340016BD46 /* ViewController.swift in Sources */,
+				30458D0522AD53340016BD46 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30458D1122AD53350016BD46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30458D1A22AD53350016BD46 /* Canada_Tax_Calculation_ApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30458D1C22AD53350016BD46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30458D2522AD53350016BD46 /* Canada_Tax_Calculation_ApplicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30458D1722AD53350016BD46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30458D0022AD53340016BD46 /* Canada Tax Calculation Application */;
+			targetProxy = 30458D1622AD53350016BD46 /* PBXContainerItemProxy */;
+		};
+		30458D2222AD53350016BD46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30458D0022AD53340016BD46 /* Canada Tax Calculation Application */;
+			targetProxy = 30458D2122AD53350016BD46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30458D0822AD53340016BD46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30458D0922AD53340016BD46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30458D0D22AD53350016BD46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30458D0E22AD53350016BD46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30458D2722AD53350016BD46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30458D2822AD53350016BD46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30458D2A22AD53350016BD46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66394L4873;
+				INFOPLIST_FILE = "Canada Tax Calculation Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SM.Canada-Tax-Calculation-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30458D2B22AD53350016BD46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66394L4873;
+				INFOPLIST_FILE = "Canada Tax Calculation Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SM.Canada-Tax-Calculation-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30458D2D22AD53350016BD46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66394L4873;
+				INFOPLIST_FILE = "Canada Tax Calculation ApplicationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SM.Canada-Tax-Calculation-ApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Canada Tax Calculation Application.app/Canada Tax Calculation Application";
+			};
+			name = Debug;
+		};
+		30458D2E22AD53350016BD46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66394L4873;
+				INFOPLIST_FILE = "Canada Tax Calculation ApplicationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SM.Canada-Tax-Calculation-ApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Canada Tax Calculation Application.app/Canada Tax Calculation Application";
+			};
+			name = Release;
+		};
+		30458D3022AD53350016BD46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66394L4873;
+				INFOPLIST_FILE = "Canada Tax Calculation ApplicationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SM.Canada-Tax-Calculation-ApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Canada Tax Calculation Application";
+			};
+			name = Debug;
+		};
+		30458D3122AD53350016BD46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66394L4873;
+				INFOPLIST_FILE = "Canada Tax Calculation ApplicationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SM.Canada-Tax-Calculation-ApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Canada Tax Calculation Application";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30458CFC22AD53340016BD46 /* Build configuration list for PBXProject "Canada Tax Calculation Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30458D2722AD53350016BD46 /* Debug */,
+				30458D2822AD53350016BD46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30458D2922AD53350016BD46 /* Build configuration list for PBXNativeTarget "Canada Tax Calculation Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30458D2A22AD53350016BD46 /* Debug */,
+				30458D2B22AD53350016BD46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30458D2C22AD53350016BD46 /* Build configuration list for PBXNativeTarget "Canada Tax Calculation ApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30458D2D22AD53350016BD46 /* Debug */,
+				30458D2E22AD53350016BD46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30458D2F22AD53350016BD46 /* Build configuration list for PBXNativeTarget "Canada Tax Calculation ApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30458D3022AD53350016BD46 /* Debug */,
+				30458D3122AD53350016BD46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30458CF922AD53340016BD46 /* Project object */;
+}
